@@ -17,8 +17,14 @@
 
 package my.code.library.graph;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public class BasicVertex<V extends BasicVertex<V,E>, E extends Edge<V>> implements Vertex<V,E> {
     private Object id;
     private Set<E> edges;

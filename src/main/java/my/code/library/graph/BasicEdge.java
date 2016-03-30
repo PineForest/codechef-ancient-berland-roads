@@ -19,6 +19,9 @@ package my.code.library.graph;
 
 import java.util.Objects;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public abstract class BasicEdge<V extends Vertex> implements Edge<V> {
     private Object id;
     private V vertexOne;

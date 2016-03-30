@@ -19,6 +19,9 @@ package codechef.compete;
 
 import my.code.library.graph.DSFVisitor;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public class RegionalPopulationCountingVisitor extends DSFVisitor<City,Road> {
     private int populationCount;
 

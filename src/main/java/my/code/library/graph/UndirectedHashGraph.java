@@ -22,6 +22,9 @@ import my.code.library.util.StateCorruptedException;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public class UndirectedHashGraph<V extends BasicVertex<V,E>, E extends UndirectedEdge<V,E>> extends HashGraph<V,E>
         implements VertexOperations<V,E> {
     public UndirectedHashGraph(int initialCapacity) {

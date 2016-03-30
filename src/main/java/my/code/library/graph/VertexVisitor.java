@@ -17,6 +17,9 @@
 
 package my.code.library.graph;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public interface VertexVisitor<V extends Vertex<V,E>, E extends Edge<V>> {
     void visit(V visitedVertex);
 }

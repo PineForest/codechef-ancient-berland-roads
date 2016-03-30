@@ -20,6 +20,9 @@ package codechef.compete;
 import my.code.library.graph.BasicVertex;
 import my.code.library.graph.VertexVisitor;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public class City extends BasicVertex<City,Road> {
     private int population;
 

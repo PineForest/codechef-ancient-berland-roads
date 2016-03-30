@@ -19,6 +19,9 @@ package my.code.library.graph;
 
 import java.util.Set;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public interface Vertex<V extends Vertex<V,E>, E extends Edge<V>> {
     Object getId();
 

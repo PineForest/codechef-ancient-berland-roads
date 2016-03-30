@@ -79,6 +79,8 @@ import java.io.IOException;
  *     <li>After the fifth query the populations become equal to <b>(3, 3, 10)</b> respectively, and the most populated region is again <b>{1, 3}</b>.</li>
  *     <li>After the last query we have populations the same, but now every city forms it own separate region, and the most populated region is region <b>{3}</b>.</li>
  * </ul>
+ *
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
  */
 public class AncientBerlandRoadsExercise {
     private AncientBerlandRoads ancientBerlandRoads;

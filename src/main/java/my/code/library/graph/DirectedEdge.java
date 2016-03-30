@@ -17,6 +17,9 @@
 
 package my.code.library.graph;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public class DirectedEdge<V extends Vertex> extends BasicEdge<V> {
     public DirectedEdge(Object id, V vertexOne, V vertexTwo) {
         super(id, vertexOne, vertexTwo);

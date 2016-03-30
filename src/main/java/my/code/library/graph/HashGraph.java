@@ -19,6 +19,9 @@ package my.code.library.graph;
 
 import java.util.HashMap;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public abstract class HashGraph<V extends BasicVertex<V,E>, E extends BasicEdge<V>> implements VertexOperations<V,E> {
     private HashMap<Object,V> vertices;
 

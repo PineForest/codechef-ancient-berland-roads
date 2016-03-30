@@ -17,6 +17,9 @@
 
 package my.code.library.graph;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public interface Edge<V extends Vertex> {
     Object getId();
 

@@ -17,6 +17,9 @@
 
 package my.code.library.util;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public class StateCorruptedException extends RuntimeException {
     static final long serialVersionUID = -7064897190445766919L;
 

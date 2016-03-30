@@ -19,6 +19,9 @@ package codechef.compete;
 
 import my.code.library.graph.UndirectedEdge;
 
+/**
+ * @author PineForest (see https://github.com/PineForest) 3/29/2016
+ */
 public class Road extends UndirectedEdge<City,Road> {
     public static Road instanceOf(int number, City cityOne, City cityTwo) {
         return new Road(number, cityOne, cityTwo);
